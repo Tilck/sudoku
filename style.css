@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+table {
+  border-collapse: collapse;
+}
+tr {
+  border-right: 6px solid #444;
+  border-left: 6px solid #444;
+}
+tr:first-child {
+  border-top: 6px solid #444;
+}
+tr:nth-child(3n) {
+  border-bottom: 6px solid #444;
+}
+
+td {
+  width: 64px;
+  height: 64px;
+  border: 2px solid #444;
+}
